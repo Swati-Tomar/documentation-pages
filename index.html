@@ -1,0 +1,91 @@
+<!DOCTYPE html >
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head><!-- Body part -->
+<body>
+  <!-- navbar starts here -->
+<nav id="navbar">
+  <header> Sql Documentation</header>
+  <a class="nav-link" href="#Sql_Overview">Sql Overview</a>
+  <a class="nav-link" href="#Sql_RDBMS">Sql RDBMS</a>
+  <a class="nav-link" href="#Sql_Syntex">Sql Syntex</a>
+  <a class="nav-link" href="#Sql_Datatype">Sql Datatype</a>
+  <a class="nav-link" href="#Sql_Opertions">Sql Opertions</a>
+  <a class="nav-link" href="#Sql_Expressions">Sql Expressions</a>
+ </nav>
+<!-- main content starts-->
+<main  id="main-doc"> 
+  <!-- section 1-->
+ <section class="main-section" id="Sql_Overview">
+  <header>Sql Overview</header>
+   <p> 
+      SQL is Structured Query Language, which is a computer language for storing, manipulating and retrieving data stored in a relational        database.<p>
+   <p>SQL is the standard language for Relational Database System. All the Relational Database Management Systems (RDMS) like MySQL, MS Access, Oracle, Sybase, Informix, Postgres and SQL Server use SQL as their standard database language.</p>
+ <p>Also, they are using different dialects, such as − </p>
+ <ul> 
+   <li>MS SQL Server using T-SQL</li>
+   <li>Oracle using PL/SQL</li>
+   <li>MS Access version of SQL is called JET SQL (native format) etc.</li>
+ </ul>
+</section>
+<!-- section 2-->
+<section class="main-section" id="Sql_RDBMS">
+  <header> Sql RDBMS</header>
+<p>RDBMS stands for Relational Database Management System. RDBMS is the basis for SQL, and for all modern database systems like MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.</p>
+<p>A Relational database management system (RDBMS) is a database management system (DBMS) that is based on the relational model as introduced by E. F. Codd.</p></section>
+
+<!-- section 3-->
+<section class="main-section" id="Sql_Syntex">
+  <header>Sql Syntex</header>
+<p>SQL is followed by a unique set of rules and guidelines called Syntax. This tutorial gives you a quick start with SQL by listing all the basic SQL Syntax.</p>
+<p>All the SQL statements start with any of the keywords like SELECT, INSERT, UPDATE, DELETE, ALTER, DROP, CREATE, USE, SHOW and all the statements end with a semicolon (;).
+The most important point to be noted here is that SQL is case insensitive, which means SELECT and select have same meaning in SQL statements. Whereas, MySQL makes difference in table names. So, if you are working with MySQL, then you need to give table names as they exist in the database.</p>
+
+  <p><u>Various Syntax in SQL</u></p>
+
+ <p>SQL SELECT Statement</p>
+<code>SELECT column1, column2....columnN
+FROM   table_name;</code>
+  <p>SQL DISTINCT Clause</p>
+  <code>SELECT DISTINCT column1, column2....columnN
+FROM   table_name;</code>
+  <p>SQL WHERE Clause</p>
+<code>SELECT column1, column2....columnN
+FROM   table_name
+WHERE  CONDITION;</code>
+  <p>SQL AND/OR Clause</p>
+<code>SELECT column1, column2....columnN
+FROM   table_name
+WHERE  CONDITION-1 {AND|OR} CONDITION-2;</code>
+  <p>SQL IN Clause</p>
+<code>SELECT column1, column2....columnN
+FROM   table_name
+WHERE  column_name IN (val-1, val-2,...val-N);
+</code></section>
+<!-- section 4-->
+<section class="main-section" id="Sql_Datatype">
+  <header>Sql Datatype</header>
+<p>SQL Data Type is an attribute that specifies the type of data of any object. Each column, variable and expression has a related data type in SQL.</p>
+<p> You can use these data types while creating your tables. You can choose a data type for a table column based on your requirement.</p></section>
+<!-- section 5 -->
+<section class="main-section" id="Sql_Opertions">
+  <header>Sql Opertions</header>
+<p>An operator is a reserved word or a character used primarily in an SQL statement's WHERE clause to perform operation(s), such as comparisons and arithmetic operations. These Operators are used to specify conditions in an SQL statement and to serve as conjunctions for multiple conditions in a statement.</p>
+  <ul>
+    <li>Arithmetic operators</li>
+    <li>Comparison operators</li>
+    <li>Logical operators</li>
+    <li>Operators used to negate conditions</li>
+  </ul>
+ </section>
+<!-- section 6 -->
+<section class="main-section" id="Sql_Expressions">
+  <header>Sql Expressions </header>
+<p>An expression is a combination of one or more values, operators and SQL functions that evaluate to a value. These SQL EXPRESSIONs are like formulae and they are written in query language. You can also use them to query the database for a specific set of data.
+</p></section> 
+</main>
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+</body>
+</html>
